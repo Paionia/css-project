@@ -1,0 +1,270 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+
+/*start Body */
+body {
+  background-image: url("./images/magicien3.jpg");
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 50px;
+
+}
+
+/*Header Style*/
+header {
+  background-color: rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border-bottom: solid 2px white;
+}
+
+/*Logo Style*/
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+  color: white;
+}
+
+/*Navbar Style*/
+nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav a {
+  margin-left: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: rgb(250, 235, 215);
+  color: black; 
+  transition: all 0.5s ease-out;
+  margin: 13px 10px;
+  
+}
+
+/* end Header*/
+
+.paragraph>h1 {
+  color:antiquewhite;
+  padding: 20px 20px;
+  margin: 30px 400px;
+}
+
+.paragraph>p {
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 15px;
+  columns: 3;
+  border: 2px solid rgb(39, 219, 66);
+
+}
+
+/*start separator*/
+.separator {
+  width: 50%;
+  height: 2px;
+  background-color: white;
+  margin: 20px 5px;
+}
+
+.separator>h1 {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: mediumspringgreen;
+}
+
+.separator>p {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: bisque;
+  padding: 20px;
+}
+
+/*end  separator*/
+
+/*Video Style*/
+
+.video-container {
+  background-color: rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border-bottom: solid 2px white;
+
+
+}
+
+.video {
+  top: 250px;
+  right: 0;
+  width: 45%;
+  height: 0;
+  padding-bottom: 56.25%;
+  position: relative;
+}
+
+.video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+}
+
+.pcontainer{
+  align-items: self-start;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 30px 20px;
+  margin: 50px 30px;
+  
+}
+
+.pcontainer>h2{
+  padding: 10px ;
+  margin: 10px;
+}
+
+
+/* start footer*/
+
+
+footer {
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 50px 0;
+}
+
+footer p {
+  font-size: 14px;
+  color: #666666;
+  margin: 0;
+  text-align: start;
+  text-decoration: underline;
+}
+
+footer form {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer form .form-group {
+  margin-bottom: 30px;
+}
+
+footer form label {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+footer form input,
+footer form select {
+  width: 60%;
+  padding: 10px;
+  font-size: 14px;
+  margin-bottom: 20px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+}
+
+footer form button {
+  width: 20%;
+  padding: 10px;
+  font-size: 14px;
+  margin-top: 20px;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+}
+
+footer form button:hover {
+  background-color: #0069d9;
+  cursor: pointer;
+}
+
+/*login link*/
+.login-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 50%;
+  margin: 20px auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  box-shadow: 0 0 10px #000;
+  color: white;
+  font-size: 18px;
+}
+
+.login-links a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+
+
+
+/* Modal styles */
+#modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
+}
+
+/* Modal content */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  /* Could be more or less, depending on screen size */
+}
+
+/* Close button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+/* end footer*/
+
+
+/*end Body */
